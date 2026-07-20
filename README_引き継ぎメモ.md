@@ -67,4 +67,3 @@ git push origin main
 - 「第12弾（問166〜問180）を、これまでと同じフォーマットで」と依頼すればOK。
 - テーマ未指定なら第14章（日付・時刻編: datetime による日時操作 / timedelta / strftime・strptime / time モジュール など）へ進む方針。
 - ファイル名は [問題]14章_XXX_Q166-180.ipynb / [解答解説]14章_XXX_Q166-180.ipynb の規則で。
-こ
