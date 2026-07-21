@@ -19,7 +19,8 @@ Python 3 Certified Member Basic Exam/
 │   ├── [問題]10章_クラス編_Q106-120.ipynb （解答・解説なし。生徒配布用）
 │   ├── [問題]11章_イテレータ・ジェネレータ編_Q121-135.ipynb （解答・解説なし。生徒配布用）
 │   ├── [問題]12章_標準ライブラリ応用編_Q136-150.ipynb （解答・解説なし。生徒配布用）
-│   └── [問題]13章_ファイル・データ形式応用編_Q151-165.ipynb （解答・解説なし。生徒配布用）
+│   ├── [問題]13章_ファイル・データ形式応用編_Q151-165.ipynb （解答・解説なし。生徒配布用）
+│   └── [問題]14章_日付・時刻編_Q166-180.ipynb （解答・解説なし。生徒配布用）
 └── 02_解答と解説/
     ├── [解答解説]03章_気楽な入門編_Q01-15.ipynb （解答・解説・完成コードあり。先生用）
     ├── [解答解説]04章_制御フロー編_Q16-30.ipynb （解答・解説・完成コードあり。先生用）
@@ -31,7 +32,8 @@ Python 3 Certified Member Basic Exam/
     ├── [解答解説]10章_クラス編_Q106-120.ipynb （解答・解説・完成コードあり。先生用）
     ├── [解答解説]11章_イテレータ・ジェネレータ編_Q121-135.ipynb （解答・解説・完成コードあり。先生用）
     ├── [解答解説]12章_標準ライブラリ応用編_Q136-150.ipynb （解答・解説・完成コードあり。先生用）
-    └── [解答解説]13章_ファイル・データ形式応用編_Q151-165.ipynb （解答・解説・完成コードあり。先生用）
+    ├── [解答解説]13章_ファイル・データ形式応用編_Q151-165.ipynb （解答・解説・完成コードあり。先生用）
+    └── [解答解説]14章_日付・時刻編_Q166-180.ipynb （解答・解説・完成コードあり。先生用）
 ```
 
 ## 3. 進捗状況
@@ -46,7 +48,8 @@ Python 3 Certified Member Basic Exam/
 - 第9弾: 第11章 イテレータ・ジェネレータ編（iter / next / yield / ジェネレータ式 / enumerate / zip / reversed / __next__ / yield from）問121〜問135 … 完了
 - 第10弾: 第12章 標準ライブラリ応用編（正規表現 re の search/findall/sub/split/compile、collections の Counter/defaultdict/namedtuple/deque、itertools の chain/product/permutations/combinations、functools の reduce/lru_cache）問136〜問150 … 完了
 - 第11弾: 第13章 ファイル・データ形式応用編（pathlib のパス結合・stem・mkdir・glob・read_text/write_text、json の dumps/loads/dump/load、csv の writer/reader/DictWriter/DictReader、shutil の copy/move）問151〜問165 … 完了
-- 第12弾以降: 問166〜問200まで継続
+- 第12弾: 第14章 日付・時刻編（datetime.date/datetime の作成・属性、timedelta による日時演算、strftime・strptime、date比較、time.time・time.sleep、weekday、isoformat）問166〜問180 … 完了
+- 第13弾以降: 問181〜問200まで継続
 
 ## 4. 出力フォーマット規約（毎回厳守）
 - 1問 = 「問題markdownセル」+「穴埋めコードセル」。空欄は `___`（アンダーバー3つ）。
@@ -57,13 +60,13 @@ Python 3 Certified Member Basic Exam/
 - 生成した2ファイルを 01_問題集 / 02_解答と解説 フォルダに配置。
 - コミット例:
 ```
-git add "01_問題集/[問題]13章_ファイル・データ形式応用編_Q151-165.ipynb" "02_解答と解説/[解答解説]13章_ファイル・データ形式応用編_Q151-165.ipynb"
-git commit -m "第13章 ファイル・データ形式応用編 問151-165（問題集/解答解説）を追加"
+git add "01_問題集/[問題]14章_日付・時刻編_Q166-180.ipynb" "02_解答と解説/[解答解説]14章_日付・時刻編_Q166-180.ipynb"
+git commit -m "第14章 日付・時刻編 問166-180（問題集/解答解説）を追加"
 git push origin main
 ```
 - 差分を見やすく保つため、コミット前のセル出力クリアを推奨。
 
 ## 6. 次回の作業再開方法（引き継ぎ）
-- 「第12弾（問166〜問180）を、これまでと同じフォーマットで」と依頼すればOK。
-- テーマ未指定なら第14章（日付・時刻編: datetime による日時操作 / timedelta / strftime・strptime / time モジュール など）へ進む方針。
-- ファイル名は [問題]14章_XXX_Q166-180.ipynb / [解答解説]14章_XXX_Q166-180.ipynb の規則で。
+- 「第13弾（問181〜問195）を、これまでと同じフォーマットで」と依頼すればOK。
+- テーマ未指定なら第15章（数学・乱数編: math モジュールの sqrt・floor・ceil・pow / random モジュールの randint・choice・shuffle・uniform など）へ進む方針。
+- ファイル名は [問題]15章_XXX_Q181-195.ipynb / [解答解説]15章_XXX_Q181-195.ipynb の規則で。
